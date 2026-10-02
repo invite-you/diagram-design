@@ -1,0 +1,19 @@
+{
+  "feature_mutations": [
+    "positive",
+    "missing_feature",
+    "empty_payload",
+    "duplicate_id",
+    "unknown_kind",
+    "out_of_bounds",
+    "nonfinite_numeric",
+    "feature_overflow"
+  ],
+  "type_mutations": [
+    "empty_diagram",
+    "primitive_flood",
+    "invalid_variant",
+    "invalid_canvas"
+  ],
+  "semantics": "Every feature in type_manifest.json receives every feature_mutation; every top-level type receives every type_mutation."
+}

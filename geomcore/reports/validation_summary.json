@@ -1,0 +1,17 @@
+{
+  "status": "PASS",
+  "diagram_types": 42,
+  "semantic_elements": 378,
+  "defect_matrix_cases": 3192,
+  "feature_level_cases": 3024,
+  "type_level_stress_cases": 168,
+  "unittest_methods": 7,
+  "runtime_result": "OK",
+  "provenance": "feature kind/variant mapping extracted from the previously validated 58-fixture prototype",
+  "semantic_defects": {
+    "sankey": ["balanced flow passes","leak fails","negative flow fails"],
+    "waterfall": ["correct arithmetic passes","off-by-one end total fails"],
+    "polar": ["valid passes","truncated baseline fails","negative value fails","too few categories fails","duplicate labels fail"],
+    "sequence": ["budget boundary passes","lifeline overflow fails","message overflow fails","fragment overflow fails","alt-region overflow fails","nesting overflow fails"]
+  }
+}
